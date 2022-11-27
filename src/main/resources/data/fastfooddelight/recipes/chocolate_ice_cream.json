@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fastfooddelight:ice_cream"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "item": "fastfooddelight:chocolate_ice_cream"
+  }
+}

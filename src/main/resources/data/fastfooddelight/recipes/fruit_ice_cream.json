@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fastfooddelight:ice_cream"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    }
+  ],
+  "result": {
+    "item": "fastfooddelight:fruit_ice_cream"
+  }
+}

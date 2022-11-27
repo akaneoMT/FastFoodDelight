@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "fastfooddelight:fries_bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.5,
+  "ingredients": [
+    {
+      "tag": "forge:crops/carrot"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "fastfooddelight:carrot_fries"
+  }
+}

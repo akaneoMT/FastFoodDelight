@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "minecraft:paper"
+    },
+    "O": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "DOD",
+    " D "
+  ],
+  "result": {
+    "item": "fastfooddelight:fries_bowl"
+  }
+}

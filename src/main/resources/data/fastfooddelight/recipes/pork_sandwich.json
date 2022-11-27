@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "item": "fastfooddelight:pork_sandwich"
+  }
+}
