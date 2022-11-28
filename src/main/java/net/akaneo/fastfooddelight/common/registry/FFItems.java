@@ -58,6 +58,8 @@ public class FFItems extends ModItems {
     public static final RegistryObject<Item> RABBIT_SANDWICH;
     public static final RegistryObject<Item> CHEESE_WRAP;
     public static final RegistryObject<Item> CHICKEN_WRAP;
+    public static final RegistryObject<Item> CHICKEN_NUGGETS;
+
 
     public static final RegistryObject<Item> COLA_SODA;
     public static final RegistryObject<Item> ORANGE_SODA;
@@ -128,6 +130,9 @@ public class FFItems extends ModItems {
         });
         CHICKEN_WRAP = ITEMS.register("chicken_wrap", () -> {
             return new Item(foodItem(FoodValues.MUTTON_WRAP));
+        });
+        CHICKEN_NUGGETS = ITEMS.register("chicken_nuggets", () -> {
+            return new Item(foodItem(FFFoodValues.FRIES));
         });
 
         // Drinks

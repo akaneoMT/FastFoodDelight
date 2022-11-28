@@ -141,6 +141,15 @@ public class FFEvents {
                         new ItemStack(Items.GOLD_NUGGET, 5),
                         stack, 10, 5, 0.0F));
             }
+            if (event.getType() == FFVillagers.FAST_FOOD_WAITER.get()) {
+                Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+                ItemStack stack = new ItemStack(FFItems.CHICKEN_NUGGETS.get(), 1);
+                int villagerLevel = 2;
+
+                trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                        new ItemStack(Items.GOLD_NUGGET, 3),
+                        stack, 10, 5, 0.0F));
+            }
 
             // Burgers tier 3
             if (event.getType() == FFVillagers.FAST_FOOD_WAITER.get()) {
