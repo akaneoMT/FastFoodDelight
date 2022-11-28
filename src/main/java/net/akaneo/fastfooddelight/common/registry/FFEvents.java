@@ -282,6 +282,15 @@ public class FFEvents {
                         new ItemStack(Items.GOLD_NUGGET, 3),
                         stack, 10, 5, 0.0F));
             }
+            if (event.getType() == FFVillagers.FAST_FOOD_WAITER.get()) {
+                Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+                ItemStack stack = new ItemStack(ModItems.FRUIT_SALAD.get(), 1);
+                int villagerLevel = 5;
+
+                trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                        new ItemStack(Items.GOLD_NUGGET, 3),
+                        stack, 10, 5, 0.0F));
+            }
         }
     }
 }
