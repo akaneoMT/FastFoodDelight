@@ -1,0 +1,37 @@
+{
+"block.fastfooddelight.checkout_machine": "收银台",
+
+"item.fastfooddelight.fries_bowl": "薯条袋",
+"item.fastfooddelight.cheese": "奶酪",
+
+"item.fastfooddelight.french_fries": "薯条",
+"item.fastfooddelight.carrot_fries": "胡萝卜条",
+"item.fastfooddelight.fried_onions": "炸洋葱",
+
+"item.fastfooddelight.cod_sandwich": "鳕鱼三明治",
+"item.fastfooddelight.salmon_sandwich": "鲑鱼三明治",
+"item.fastfooddelight.pork_sandwich": "猪肉三明治",
+"item.fastfooddelight.cheeseburger": "奶酪汉堡",
+"item.fastfooddelight.chicken_cheese_sandwich": "鸡肉三明治",
+"item.fastfooddelight.croque_monsieur": "三明治",
+"item.fastfooddelight.rabbit_sandwich": "兔子三明治",
+"item.fastfooddelight.cheese_wrap": "奶酪卷",
+"item.fastfooddelight.chicken_wrap": "鸡肉卷",
+"item.fastfooddelight.chicken_nuggets": "鸡块",
+
+"item.fastfooddelight.cola_soda": "可乐苏打水",
+"item.fastfooddelight.orange_soda": "橙汁苏打水",
+"item.fastfooddelight.lemon_soda": "柠檬苏打水",
+"item.fastfooddelight.creaming_soda": "奶油苏打水",
+"item.fastfooddelight.iced_tea": "冰红茶",
+
+"item.fastfooddelight.ice_cream": "冰激凌",
+"item.fastfooddelight.chocolate_ice_cream": "巧克力冰激凌",
+"item.fastfooddelight.sweet_berry_ice_cream": "浆果冰激凌",
+"item.fastfooddelight.fruit_ice_cream": "水果冰淇淋",
+"item.fastfooddelight.apple_sauce": "苹果酱",
+
+"itemGroup.fastfooddelight": "快餐乐事",
+
+"entity.minecraft.villager.fastfooddelight.fast_food_waiter": "快餐服务员"
+}
