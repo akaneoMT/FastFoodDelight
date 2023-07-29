@@ -4,7 +4,9 @@ license="MIT License"
 [[mods]] #mandatory
 modId="fastfooddelight" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="https://github.com/akaneoMT/FastFoodDelight" #mandatory
+displayName="FastFoodDelight" #mandatory
+displayURL="https://github.com/akaneoMT/FastFoodDelight"
+issueTrackerURL="https://github.com/akaneoMT/FastFoodDelight/issues"
 logoFile="logo.png" #optional
 logoBlur=false
 credits="vectorwing" #optional
