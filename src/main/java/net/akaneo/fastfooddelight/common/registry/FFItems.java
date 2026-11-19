@@ -25,7 +25,6 @@ import static vectorwing.farmersdelight.common.registry.ModItems.foodItem;
 @SuppressWarnings("unused")
 public class FFItems
 {
-	/** Every item registered "with tab" lands here, in declaration order; FFCreativeTabs displays them. */
 	public static final LinkedHashSet<Supplier<Item>> CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
 
 	public static ResourceKey<Item> key(String path) {
@@ -57,7 +56,7 @@ public class FFItems
 	public static final Supplier<Item> CHEESE = registerWithTab("cheese",
 			Item::new, foodItem(FFFoodValues.CHEESE));
 
-	// Fries (eaten from a fries bowl, which is given back)
+	// Fries
 	public static final Supplier<Item> FRENCH_FRIES = registerWithTab("french_fries",
 			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
 	public static final Supplier<Item> CARROT_FRIES = registerWithTab("carrot_fries",
@@ -87,7 +86,7 @@ public class FFItems
 	public static final Supplier<Item> CHICKEN_NUGGETS = registerWithTab("chicken_nuggets",
 			ConsumableItem::new, foodItem(FFFoodValues.FRIES));
 
-	// Drinks (glass bottle given back, tooltip shows the Regeneration effect)
+	// Drinks
 	public static final Supplier<Item> COLA_SODA = registerWithTab("cola_soda",
 			properties -> new ConsumableItem(properties, true), drinkItem(FFFoodValues.ConsumableValues.SODA));
 	public static final Supplier<Item> ORANGE_SODA = registerWithTab("orange_soda",
@@ -99,7 +98,7 @@ public class FFItems
 	public static final Supplier<Item> ICED_TEA = registerWithTab("iced_tea",
 			properties -> new ConsumableItem(properties, true), drinkItem(FFFoodValues.ConsumableValues.SODA));
 
-	// Desserts (bowl given back)
+	// Desserts
 	public static final Supplier<Item> ICE_CREAM = registerWithTab("ice_cream",
 			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_BASIC).craftRemainder(Items.BOWL));
 	public static final Supplier<Item> CHOCOLATE_ICE_CREAM = registerWithTab("chocolate_ice_cream",

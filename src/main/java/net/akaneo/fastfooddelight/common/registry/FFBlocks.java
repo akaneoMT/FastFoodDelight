@@ -25,7 +25,6 @@ public class FFBlocks
 	}
 
 	// Workstations
-	// Same properties as Farmer's Delight's cooking pot (metal colour, strength, lantern sound)
 	public static final Supplier<Block> CHECKOUT_MACHINE = regBlock("checkout_machine",
 			CheckoutMachineBlock::new, Block.Properties.of().mapColor(MapColor.METAL).strength(0.5F, 6.0F).sound(SoundType.LANTERN).noOcclusion());
 

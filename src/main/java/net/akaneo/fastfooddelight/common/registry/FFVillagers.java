@@ -20,13 +20,11 @@ public class FFVillagers
 {
 	public static final String FAST_FOOD_WAITER_NAME = "fast_food_waiter";
 
-	// Point of interest: the checkout machine is the fast food waiter's job site (1 villager per machine, search radius 1)
 	public static final ResourceKey<PoiType> CHECKOUT_MACHINE_POI_KEY =
 			ResourceKey.create(Registries.POINT_OF_INTEREST_TYPE, FastFoodDelight.id("checkout_machine_poi"));
 	public static final PoiType CHECKOUT_MACHINE_POI =
 			PoiHelper.register(CHECKOUT_MACHINE_POI_KEY.identifier(), 1, 1, FFBlocks.CHECKOUT_MACHINE.get());
 
-	// Profession: trades are data-driven, one trade set per level (data/fastfooddelight/trade_set/fast_food_waiter/level_N.json)
 	public static final Supplier<VillagerProfession> FAST_FOOD_WAITER = FFRegUtils.register(FAST_FOOD_WAITER_NAME,
 			() -> new VillagerProfession(
 					Component.translatable("entity.minecraft.villager." + FastFoodDelight.MODID + "." + FAST_FOOD_WAITER_NAME),

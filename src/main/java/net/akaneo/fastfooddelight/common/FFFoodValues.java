@@ -39,13 +39,9 @@ public class FFFoodValues
 	public static final FoodProperties ICE_CREAM_ADV = (new FoodProperties.Builder())
 			.nutrition(8).saturationModifier(0.6f).build();
 
-	/**
-	 * Since 1.21.2, effects and eating behaviour live in the Consumable component,
-	 * separate from nutrition (FoodProperties). Same layout as FoodValues.ConsumableValues in Farmer's Delight.
-	 */
 	public static class ConsumableValues
 	{
-		// Sodas: drinkable at any time, grant 15 seconds of Regeneration I
+		// Sodas
 		public static final Consumable SODA = Consumables.defaultDrink()
 				.onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 300, 0)))
 				.build();
