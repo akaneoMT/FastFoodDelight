@@ -30,4 +30,6 @@
 - Removed the stray leatherworker villager from every Fast Food shop
 - French translation fixes ("Oignons frits", "Croque-monsieur")
 
+This update was made with the help of AI (Claude, by Anthropic), under the direction of the original author, who guided every step and reviewed the changes.
+
 Thanks to Rinko1231 for the unofficial 1.20/1.21 update, which inspired some of these changes.
