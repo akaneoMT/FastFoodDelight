@@ -63,6 +63,8 @@ public class FFItems
 			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
 	public static final Supplier<Item> FRIED_ONIONS = registerWithTab("fried_onions",
 			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
+	public static final Supplier<Item> BEET_FRIES = registerWithTab("beet_fries",
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
 
 	// Sandwiches & wraps
 	public static final Supplier<Item> COD_SANDWICH = registerWithTab("cod_sandwich",

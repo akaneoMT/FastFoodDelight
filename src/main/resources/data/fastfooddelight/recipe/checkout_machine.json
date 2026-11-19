@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:glass",
+    "I": "minecraft:iron_ingot",
+    "P": "minecraft:paper",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "IGI",
+    "IRI",
+    "PPP"
+  ],
+  "result": {
+    "id": "fastfooddelight:checkout_machine"
+  }
+}

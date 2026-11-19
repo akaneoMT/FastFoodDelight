@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "fastfooddelight:fries_bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.5,
+  "ingredients": [
+    "#c:crops/beetroot"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "fastfooddelight:beet_fries"
+  }
+}

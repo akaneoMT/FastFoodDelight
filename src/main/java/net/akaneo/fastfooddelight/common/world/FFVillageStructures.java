@@ -2,6 +2,7 @@ package net.akaneo.fastfooddelight.common.world;
 
 import com.mojang.datafixers.util.Pair;
 import net.akaneo.fastfooddelight.FastFoodDelight;
+import net.akaneo.fastfooddelight.common.FFConfiguration;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
@@ -19,13 +20,14 @@ import java.util.List;
 
 public class FFVillageStructures
 {
-	private static final int FAST_FOOD_WEIGHT = 15;
-
 	public static void init() {
 		ServerLifecycleEvents.SERVER_STARTING.register(FFVillageStructures::addNewVillageBuildings);
 	}
 
 	public static void addNewVillageBuildings(MinecraftServer server) {
+		int weight = FFConfiguration.VILLAGE_FAST_FOOD_WEIGHT.get();
+		if (!FFConfiguration.GENERATE_VILLAGE_FAST_FOODS.get() || weight <= 0) return;
+
 		Registry<StructureTemplatePool> templatePools = server.registryAccess().lookupOrThrow(Registries.TEMPLATE_POOL);
 		Registry<StructureProcessorList> processorLists = server.registryAccess().lookupOrThrow(Registries.PROCESSOR_LIST);
 
@@ -33,7 +35,7 @@ public class FFVillageStructures
 			addBuildingToPool(templatePools, processorLists,
 					Identifier.withDefaultNamespace("village/" + biome + "/houses"),
 					FastFoodDelight.MODID + ":village/houses/" + biome + "_fast_food",
-					FAST_FOOD_WEIGHT);
+					weight);
 		}
 	}
 

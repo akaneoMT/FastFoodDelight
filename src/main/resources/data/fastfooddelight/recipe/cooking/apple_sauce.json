@@ -1,10 +1,14 @@
 {
   "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
   "cookingtime": 200,
   "experience": 1.0,
   "ingredients": [
     "minecraft:apple",
     "minecraft:apple",
+    "minecraft:sugar",
     "minecraft:sugar"
   ],
   "recipe_book_tab": "meals",

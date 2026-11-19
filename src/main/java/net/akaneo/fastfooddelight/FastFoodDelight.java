@@ -1,5 +1,6 @@
 package net.akaneo.fastfooddelight;
 
+import net.akaneo.fastfooddelight.common.FFConfiguration;
 import net.akaneo.fastfooddelight.common.registry.FFBlocks;
 import net.akaneo.fastfooddelight.common.registry.FFCreativeTabs;
 import net.akaneo.fastfooddelight.common.registry.FFItems;
@@ -20,6 +21,8 @@ public class FastFoodDelight implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        FFConfiguration.touch();
+
         FFBlocks.touch();
         FFItems.touch();
         FFCreativeTabs.touch();
