@@ -16,6 +16,7 @@
   "entrypoints": {
     "main": ["net.akaneo.fastfooddelight.FastFoodDelight"]
   },
+  "accessWidener": "fastfooddelight.classtweaker",
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": "*",

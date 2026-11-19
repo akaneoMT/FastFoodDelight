@@ -10,6 +10,10 @@ base {
     archivesName = "FastFoodDelight"
 }
 
+loom {
+    accessWidenerPath = file("src/main/resources/fastfooddelight.classtweaker")
+}
+
 repositories {
     // Farmer's Delight Refabricated is fetched from Modrinth
     maven {
