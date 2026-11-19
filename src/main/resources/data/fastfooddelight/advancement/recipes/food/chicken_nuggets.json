@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:chicken_nuggets"
+        "recipes": "fastfooddelight:chicken_nuggets"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

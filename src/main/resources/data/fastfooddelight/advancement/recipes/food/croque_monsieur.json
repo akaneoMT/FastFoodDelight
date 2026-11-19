@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:croque_monsieur"
+        "recipes": "fastfooddelight:croque_monsieur"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

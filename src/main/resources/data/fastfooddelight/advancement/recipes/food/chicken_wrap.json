@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:chicken_wrap"
+        "recipes": "fastfooddelight:chicken_wrap"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

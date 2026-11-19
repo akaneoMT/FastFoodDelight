@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:cooking/apple_sauce"
+        "recipes": "fastfooddelight:cooking/apple_sauce"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

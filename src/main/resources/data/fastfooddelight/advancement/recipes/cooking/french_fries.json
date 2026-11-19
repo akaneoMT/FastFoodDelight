@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:cooking/french_fries"
+        "recipes": "fastfooddelight:cooking/french_fries"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

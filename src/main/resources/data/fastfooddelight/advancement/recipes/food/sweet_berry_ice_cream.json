@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:sweet_berry_ice_cream"
+        "recipes": "fastfooddelight:sweet_berry_ice_cream"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

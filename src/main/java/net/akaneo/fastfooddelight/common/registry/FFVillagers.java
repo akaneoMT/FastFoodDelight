@@ -4,13 +4,13 @@ import com.google.common.collect.ImmutableSet;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.akaneo.fastfooddelight.FastFoodDelight;
-import net.fabricmc.fabric.api.object.builder.v1.world.poi.PoiHelper;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
+import net.minecraft.world.entity.ai.village.poi.PoiTypes;
 import net.minecraft.world.entity.npc.villager.VillagerProfession;
 import net.minecraft.world.item.trading.TradeSet;
 
@@ -23,7 +23,8 @@ public class FFVillagers
 	public static final ResourceKey<PoiType> CHECKOUT_MACHINE_POI_KEY =
 			ResourceKey.create(Registries.POINT_OF_INTEREST_TYPE, FastFoodDelight.id("checkout_machine_poi"));
 	public static final PoiType CHECKOUT_MACHINE_POI =
-			PoiHelper.register(CHECKOUT_MACHINE_POI_KEY.identifier(), 1, 1, FFBlocks.CHECKOUT_MACHINE.get());
+			PoiTypes.register(BuiltInRegistries.POINT_OF_INTEREST_TYPE, CHECKOUT_MACHINE_POI_KEY,
+					ImmutableSet.copyOf(FFBlocks.CHECKOUT_MACHINE.get().getStateDefinition().getPossibleStates()), 1, 1);
 
 	public static final Supplier<VillagerProfession> FAST_FOOD_WAITER = FFRegUtils.register(FAST_FOOD_WAITER_NAME,
 			() -> new VillagerProfession(

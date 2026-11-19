@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:cod_sandwich"
+        "recipes": "fastfooddelight:cod_sandwich"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

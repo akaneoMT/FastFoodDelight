@@ -1,6 +1,5 @@
 package net.akaneo.fastfooddelight.common.block;
 
-import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -17,7 +16,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 public class CheckoutMachineBlock extends Block
 {
-	public static final MapCodec<CheckoutMachineBlock> CODEC = simpleCodec(CheckoutMachineBlock::new);
 	public static final Property<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
 
 	private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 10, 16);
@@ -25,11 +23,6 @@ public class CheckoutMachineBlock extends Block
 	public CheckoutMachineBlock(Properties properties) {
 		super(properties);
 		this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH));
-	}
-
-	@Override
-	protected MapCodec<? extends Block> codec() {
-		return CODEC;
 	}
 
 	@Override

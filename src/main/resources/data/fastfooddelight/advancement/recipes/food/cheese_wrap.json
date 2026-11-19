@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:cheese_wrap"
+        "recipes": "fastfooddelight:cheese_wrap"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

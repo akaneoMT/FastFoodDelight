@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:salmon_sandwich"
+        "recipes": "fastfooddelight:salmon_sandwich"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:fries_bowl"
+        "recipes": "fastfooddelight:fries_bowl"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

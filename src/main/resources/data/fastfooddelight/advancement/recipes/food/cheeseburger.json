@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "fastfooddelight:cheeseburger"
+        "recipes": "fastfooddelight:cheeseburger"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
