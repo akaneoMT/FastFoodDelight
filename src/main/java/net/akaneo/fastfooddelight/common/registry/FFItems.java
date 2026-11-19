@@ -1,174 +1,116 @@
 package net.akaneo.fastfooddelight.common.registry;
 
+import com.google.common.collect.Sets;
 import net.akaneo.fastfooddelight.FastFoodDelight;
 import net.akaneo.fastfooddelight.common.FFFoodValues;
-import net.minecraft.world.food.FoodProperties;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
-import vectorwing.farmersdelight.FarmersDelight;
 import vectorwing.farmersdelight.common.FoodValues;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
-import vectorwing.farmersdelight.common.item.DrinkableItem;
-import vectorwing.farmersdelight.common.registry.ModBlocks;
-import vectorwing.farmersdelight.common.registry.ModItems;
 
-public class FFItems extends ModItems {
+import java.util.LinkedHashSet;
+import java.util.function.BiFunction;
+import java.util.function.Function;
+import java.util.function.Supplier;
 
-    public static Item.Properties basicItem() {
-        return (new Item.Properties()).tab(FastFoodDelight.CREATIVE_TAB);
-    }
+import static vectorwing.farmersdelight.common.registry.ModItems.basicItem;
+import static vectorwing.farmersdelight.common.registry.ModItems.drinkItem;
+import static vectorwing.farmersdelight.common.registry.ModItems.foodItem;
 
-    public static Item.Properties foodItem(FoodProperties food) {
-        return (new Item.Properties()).food(food).tab(FastFoodDelight.CREATIVE_TAB);
-    }
+@SuppressWarnings("unused")
+public class FFItems
+{
+	/** Every item registered "with tab" lands here, in declaration order; FFCreativeTabs displays them. */
+	public static final LinkedHashSet<Supplier<Item>> CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
 
-    public static Item.Properties bowlFoodItem(FoodProperties food) {
-        return (new Item.Properties()).food(food).craftRemainder(Items.BOWL).stacksTo(16).tab(FastFoodDelight.CREATIVE_TAB);
-    }
+	public static ResourceKey<Item> key(String path) {
+		return ResourceKey.create(Registries.ITEM, FastFoodDelight.id(path));
+	}
 
-    public static Item.Properties friesBowlFoodItem(FoodProperties food) {
-        return (new Item.Properties()).food(food).craftRemainder(FFItems.FRIES_BOWL.get()).stacksTo(16).tab(FastFoodDelight.CREATIVE_TAB);
-    }
+	private static Supplier<Item> registerWithTab(final String name, final Function<Item.Properties, Item> function, final Item.Properties properties) {
+		properties.setId(key(name));
+		Supplier<Item> item = FFRegUtils.register(name, () -> function.apply(properties), BuiltInRegistries.ITEM);
+		CREATIVE_TAB_ITEMS.add(item);
+		return item;
+	}
 
-    public static Item.Properties drinkItem() {
-        return (new Item.Properties()).craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).tab(FastFoodDelight.CREATIVE_TAB);
-    }
+	private static Supplier<Item> registerBlockWithTab(final String name, final BiFunction<Block, Item.Properties, Item> function, final Block block, final Item.Properties properties) {
+		properties.setId(key(name));
+		properties.useBlockDescriptionPrefix();
+		Supplier<Item> item = FFRegUtils.register(name, () -> function.apply(block, properties), BuiltInRegistries.ITEM);
+		CREATIVE_TAB_ITEMS.add(item);
+		return item;
+	}
 
-    public static final DeferredRegister<Item> ITEMS;
-    public static final RegistryObject<Item> CHECKOUT_MACHINE;
+	// Blocks
+	public static final Supplier<Item> CHECKOUT_MACHINE = registerBlockWithTab("checkout_machine",
+			BlockItem::new, FFBlocks.CHECKOUT_MACHINE.get(), basicItem());
 
-    public static final RegistryObject<Item> FRIES_BOWL;
-    public static final RegistryObject<Item> CHEESE;
+	// Ingredients & containers
+	public static final Supplier<Item> FRIES_BOWL = registerWithTab("fries_bowl",
+			Item::new, basicItem());
+	public static final Supplier<Item> CHEESE = registerWithTab("cheese",
+			Item::new, foodItem(FFFoodValues.CHEESE));
 
-    public static final RegistryObject<Item> FRENCH_FRIES;
-    public static final RegistryObject<Item> CARROT_FRIES;
-    public static final RegistryObject<Item> FRIED_ONIONS;
+	// Fries (eaten from a fries bowl, which is given back)
+	public static final Supplier<Item> FRENCH_FRIES = registerWithTab("french_fries",
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
+	public static final Supplier<Item> CARROT_FRIES = registerWithTab("carrot_fries",
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
+	public static final Supplier<Item> FRIED_ONIONS = registerWithTab("fried_onions",
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
 
-    public static final RegistryObject<Item> COD_SANDWICH;
-    public static final RegistryObject<Item> SALMON_SANDWICH;
-    public static final RegistryObject<Item> PORK_SANDWICH;
-    public static final RegistryObject<Item> CHEESEBURGER;
-    public static final RegistryObject<Item> CHICKEN_CHEESE_SANDWICH;
-    public static final RegistryObject<Item> CROQUE_MONSIEUR;
-    public static final RegistryObject<Item> RABBIT_SANDWICH;
-    public static final RegistryObject<Item> CHEESE_WRAP;
-    public static final RegistryObject<Item> CHICKEN_WRAP;
-    public static final RegistryObject<Item> CHICKEN_NUGGETS;
+	// Sandwiches & wraps
+	public static final Supplier<Item> COD_SANDWICH = registerWithTab("cod_sandwich",
+			ConsumableItem::new, foodItem(FFFoodValues.COD_SANDWICH));
+	public static final Supplier<Item> SALMON_SANDWICH = registerWithTab("salmon_sandwich",
+			ConsumableItem::new, foodItem(FFFoodValues.SALMON_SANDWICH));
+	public static final Supplier<Item> PORK_SANDWICH = registerWithTab("pork_sandwich",
+			ConsumableItem::new, foodItem(FFFoodValues.PORK_SANDWICH));
+	public static final Supplier<Item> CHEESEBURGER = registerWithTab("cheeseburger",
+			ConsumableItem::new, foodItem(FFFoodValues.CHEESEBURGER));
+	public static final Supplier<Item> CHICKEN_CHEESE_SANDWICH = registerWithTab("chicken_cheese_sandwich",
+			ConsumableItem::new, foodItem(FFFoodValues.CHICKEN_CHEESE_SANDWICH));
+	public static final Supplier<Item> CROQUE_MONSIEUR = registerWithTab("croque_monsieur",
+			ConsumableItem::new, foodItem(FFFoodValues.CROQUE_MONSIEUR));
+	public static final Supplier<Item> RABBIT_SANDWICH = registerWithTab("rabbit_sandwich",
+			ConsumableItem::new, foodItem(FFFoodValues.RABBIT_SANDWICH));
+	public static final Supplier<Item> CHEESE_WRAP = registerWithTab("cheese_wrap",
+			ConsumableItem::new, foodItem(FFFoodValues.CHEESE_WRAP));
+	public static final Supplier<Item> CHICKEN_WRAP = registerWithTab("chicken_wrap",
+			ConsumableItem::new, foodItem(FoodValues.MUTTON_WRAP));
+	public static final Supplier<Item> CHICKEN_NUGGETS = registerWithTab("chicken_nuggets",
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES));
 
+	// Drinks (glass bottle given back, tooltip shows the Regeneration effect)
+	public static final Supplier<Item> COLA_SODA = registerWithTab("cola_soda",
+			properties -> new ConsumableItem(properties, true), drinkItem(FFFoodValues.ConsumableValues.SODA));
+	public static final Supplier<Item> ORANGE_SODA = registerWithTab("orange_soda",
+			properties -> new ConsumableItem(properties, true), drinkItem(FFFoodValues.ConsumableValues.SODA));
+	public static final Supplier<Item> LEMON_SODA = registerWithTab("lemon_soda",
+			properties -> new ConsumableItem(properties, true), drinkItem(FFFoodValues.ConsumableValues.SODA));
+	public static final Supplier<Item> CREAMING_SODA = registerWithTab("creaming_soda",
+			properties -> new ConsumableItem(properties, true), drinkItem(FFFoodValues.ConsumableValues.SODA));
+	public static final Supplier<Item> ICED_TEA = registerWithTab("iced_tea",
+			properties -> new ConsumableItem(properties, true), drinkItem(FFFoodValues.ConsumableValues.SODA));
 
-    public static final RegistryObject<Item> COLA_SODA;
-    public static final RegistryObject<Item> ORANGE_SODA;
-    public static final RegistryObject<Item> LEMON_SODA;
-    public static final RegistryObject<Item> CREAMING_SODA;
-    public static final RegistryObject<Item> ICED_TEA;
+	// Desserts (bowl given back)
+	public static final Supplier<Item> ICE_CREAM = registerWithTab("ice_cream",
+			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_BASIC).craftRemainder(Items.BOWL));
+	public static final Supplier<Item> CHOCOLATE_ICE_CREAM = registerWithTab("chocolate_ice_cream",
+			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
+	public static final Supplier<Item> SWEET_BERRY_ICE_CREAM = registerWithTab("sweet_berry_ice_cream",
+			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
+	public static final Supplier<Item> FRUIT_ICE_CREAM = registerWithTab("fruit_ice_cream",
+			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
+	public static final Supplier<Item> APPLE_SAUCE = registerWithTab("apple_sauce",
+			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_BASIC).craftRemainder(Items.BOWL));
 
-    public static final RegistryObject<Item> ICE_CREAM;
-    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM;
-    public static final RegistryObject<Item> SWEET_BERRY_ICE_CREAM;
-    public static final RegistryObject<Item> FRUIT_ICE_CREAM;
-    public static final RegistryObject<Item> APPLE_SAUCE;
-
-
-
-
-
-    static {
-
-        ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "fastfooddelight");
-        CHECKOUT_MACHINE = ITEMS.register("checkout_machine", () -> {
-            return new BlockItem((Block) FFBlocks.CHECKOUT_MACHINE.get(), basicItem());
-        });
-        CHEESE = ITEMS.register("cheese", () -> {
-            return new Item(foodItem(FFFoodValues.CHEESE));
-        });
-        FRIES_BOWL = ITEMS.register("fries_bowl", () -> {
-            return new Item(basicItem());
-        });
-
-        // Fries
-
-        FRENCH_FRIES = ITEMS.register("french_fries", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.FRIES).craftRemainder(FFItems.FRIES_BOWL.get()));
-        });
-        CARROT_FRIES = ITEMS.register("carrot_fries", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.FRIES).craftRemainder(FFItems.FRIES_BOWL.get()));
-        });
-        FRIED_ONIONS = ITEMS.register("fried_onions", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.FRIES).craftRemainder(FFItems.FRIES_BOWL.get()));
-        });
-
-        // Burgers
-
-        COD_SANDWICH = ITEMS.register("cod_sandwich", () -> {
-            return new Item(foodItem(FFFoodValues.COD_SANDWICH));
-        });
-        SALMON_SANDWICH = ITEMS.register("salmon_sandwich", () -> {
-            return new Item(foodItem(FFFoodValues.SALMON_SANDWICH));
-        });
-        PORK_SANDWICH = ITEMS.register("pork_sandwich", () -> {
-            return new Item(foodItem(FFFoodValues.PORK_SANDWICH));
-        });
-        CHEESEBURGER = ITEMS.register("cheeseburger", () -> {
-            return new Item(foodItem(FFFoodValues.CHEESEBURGER));
-        });
-        CHICKEN_CHEESE_SANDWICH = ITEMS.register("chicken_cheese_sandwich", () -> {
-            return new Item(foodItem(FFFoodValues.CHICKEN_CHEESE_SANDWICH));
-        });
-        CROQUE_MONSIEUR = ITEMS.register("croque_monsieur", () -> {
-            return new Item(foodItem(FFFoodValues.CROQUE_MONSIEUR));
-        });
-        RABBIT_SANDWICH = ITEMS.register("rabbit_sandwich", () -> {
-            return new Item(foodItem(FFFoodValues.RABBIT_SANDWICH));
-        });
-        CHEESE_WRAP = ITEMS.register("cheese_wrap", () -> {
-            return new Item(foodItem(FFFoodValues.CHEESE_WRAP));
-        });
-        CHICKEN_WRAP = ITEMS.register("chicken_wrap", () -> {
-            return new Item(foodItem(FoodValues.MUTTON_WRAP));
-        });
-        CHICKEN_NUGGETS = ITEMS.register("chicken_nuggets", () -> {
-            return new Item(foodItem(FFFoodValues.FRIES));
-        });
-
-        // Drinks
-
-        COLA_SODA = ITEMS.register("cola_soda", () -> {
-            return new DrinkableItem(drinkItem().food(FFFoodValues.SODA), true, false);
-        });
-        ORANGE_SODA = ITEMS.register("orange_soda", () -> {
-            return new DrinkableItem(drinkItem().food(FFFoodValues.SODA), true, false);
-        });
-        LEMON_SODA = ITEMS.register("lemon_soda", () -> {
-            return new DrinkableItem(drinkItem().food(FFFoodValues.SODA), true, false);
-        });
-        CREAMING_SODA = ITEMS.register("creaming_soda", () -> {
-            return new DrinkableItem(drinkItem().food(FFFoodValues.SODA), true, false);
-        });
-        ICED_TEA = ITEMS.register("iced_tea", () -> {
-            return new DrinkableItem(drinkItem().food(FFFoodValues.SODA), true, false);
-        });
-
-        // Desserts
-
-        ICE_CREAM = ITEMS.register("ice_cream", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.ICE_CREAM_BASIC).craftRemainder(Items.BOWL));
-        });
-        CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
-        });
-        SWEET_BERRY_ICE_CREAM = ITEMS.register("sweet_berry_ice_cream", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
-        });
-        FRUIT_ICE_CREAM = ITEMS.register("fruit_ice_cream", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
-        });
-        APPLE_SAUCE = ITEMS.register("apple_sauce", () -> {
-            return new ConsumableItem(foodItem(FFFoodValues.ICE_CREAM_BASIC).craftRemainder(Items.BOWL));
-        });
-    }
+	public static void touch() {
+	}
 }
