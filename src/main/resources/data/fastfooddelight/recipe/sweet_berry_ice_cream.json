@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fastfooddelight:ice_cream",
+    "minecraft:sweet_berries",
+    "minecraft:sweet_berries",
+    "minecraft:sweet_berries"
+  ],
+  "result": {
+    "id": "fastfooddelight:sweet_berry_ice_cream"
+  }
+}

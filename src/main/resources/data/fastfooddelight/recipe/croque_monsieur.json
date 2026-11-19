@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "#c:foods/cooked_bacon",
+    "fastfooddelight:cheese"
+  ],
+  "result": {
+    "id": "fastfooddelight:croque_monsieur"
+  }
+}

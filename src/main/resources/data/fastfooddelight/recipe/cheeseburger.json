@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "farmersdelight:beef_patty",
+    "#c:foods/leafy_green",
+    "#c:crops/tomato",
+    "#c:crops/onion",
+    "fastfooddelight:cheese"
+  ],
+  "result": {
+    "id": "fastfooddelight:cheeseburger"
+  }
+}

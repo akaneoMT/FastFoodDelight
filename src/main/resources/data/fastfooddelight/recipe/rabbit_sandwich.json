@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "minecraft:cooked_rabbit",
+    "#c:foods/leafy_green",
+    "#c:crops/tomato"
+  ],
+  "result": {
+    "id": "fastfooddelight:rabbit_sandwich"
+  }
+}

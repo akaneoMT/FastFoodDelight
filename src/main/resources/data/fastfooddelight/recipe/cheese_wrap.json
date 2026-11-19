@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "fastfooddelight:cheese",
+    "#c:foods/leafy_green",
+    "#c:crops/onion"
+  ],
+  "result": {
+    "id": "fastfooddelight:cheese_wrap"
+  }
+}

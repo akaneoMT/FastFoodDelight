@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "#c:foods/cooked_chicken",
+    "#c:foods/leafy_green",
+    "#c:crops/onion"
+  ],
+  "result": {
+    "id": "fastfooddelight:chicken_wrap"
+  }
+}

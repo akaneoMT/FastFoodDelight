@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "minecraft:cooked_porkchop",
+    "#c:foods/leafy_green",
+    "minecraft:carrot"
+  ],
+  "result": {
+    "id": "fastfooddelight:pork_sandwich"
+  }
+}
