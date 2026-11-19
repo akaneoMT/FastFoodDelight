@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Coin Countin' Contraption",
+
+  "item.fastfooddelight.fries_bowl": "Tater Stick Bowl",
+  "item.fastfooddelight.cheese": "Hard Milk",
+
+  "item.fastfooddelight.french_fries": "Fried Tater Sticks",
+  "item.fastfooddelight.carrot_fries": "Fried Orange Veggy Sticks",
+  "item.fastfooddelight.fried_onions": "Fried Stink Bulbs",
+  "item.fastfooddelight.beet_fries": "Fried Bloody Tater Sticks",
+
+  "item.fastfooddelight.cod_sandwich": "Codfish in a Bun",
+  "item.fastfooddelight.salmon_sandwich": "Salmon in a Bun",
+  "item.fastfooddelight.pork_sandwich": "Pigmeat in a Bun",
+  "item.fastfooddelight.cheeseburger": "Cheesy Sloppy Joe",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Fowl Meat 'n' Cheese in a Bun",
+  "item.fastfooddelight.croque_monsieur": "Fancy Frenchy Toast",
+  "item.fastfooddelight.rabbit_sandwich": "Rabbit in a Bun",
+  "item.fastfooddelight.cheese_wrap": "Hard Milk in a Blanket",
+  "item.fastfooddelight.chicken_wrap": "Fowl Meat in a Blanket",
+  "item.fastfooddelight.chicken_nuggets": "Fowl Meat Nuggets",
+
+
+  "item.fastfooddelight.cola_soda": "Fizzy Cola Grog",
+  "item.fastfooddelight.orange_soda": "Fizzy Orange Grog",
+  "item.fastfooddelight.lemon_soda": "Fizzy Lemon Grog",
+  "item.fastfooddelight.creaming_soda": "Fizzy Cream Grog",
+  "item.fastfooddelight.iced_tea": "Chilled Leaf Water",
+
+  "item.fastfooddelight.ice_cream": "Frozen Sweet Cream",
+  "item.fastfooddelight.chocolate_ice_cream": "Frozen Choc'late Cream",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Frozen Land Caper Cream",
+  "item.fastfooddelight.fruit_ice_cream": "Frozen Fruit Cream",
+  "item.fastfooddelight.apple_sauce": "Mushed Apples",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Grub Slinger"
+}

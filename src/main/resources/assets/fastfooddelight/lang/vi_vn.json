@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Máy tính tiền",
+
+  "item.fastfooddelight.fries_bowl": "Bát khoai tây chiên",
+  "item.fastfooddelight.cheese": "Phô mai",
+
+  "item.fastfooddelight.french_fries": "Khoai tây chiên",
+  "item.fastfooddelight.carrot_fries": "Cà rốt chiên",
+  "item.fastfooddelight.fried_onions": "Hành chiên",
+  "item.fastfooddelight.beet_fries": "Củ dền chiên",
+
+  "item.fastfooddelight.cod_sandwich": "Bánh mì kẹp cá tuyết",
+  "item.fastfooddelight.salmon_sandwich": "Bánh mì kẹp cá hồi",
+  "item.fastfooddelight.pork_sandwich": "Bánh mì kẹp thịt heo",
+  "item.fastfooddelight.cheeseburger": "Bánh burger phô mai",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Bánh mì kẹp gà và phô mai",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Bánh mì kẹp thịt thỏ",
+  "item.fastfooddelight.cheese_wrap": "Bánh cuộn phô mai",
+  "item.fastfooddelight.chicken_wrap": "Bánh cuộn gà",
+  "item.fastfooddelight.chicken_nuggets": "Gà viên chiên",
+
+
+  "item.fastfooddelight.cola_soda": "Soda cola",
+  "item.fastfooddelight.orange_soda": "Soda cam",
+  "item.fastfooddelight.lemon_soda": "Soda chanh",
+  "item.fastfooddelight.creaming_soda": "Soda vani",
+  "item.fastfooddelight.iced_tea": "Trà đá",
+
+  "item.fastfooddelight.ice_cream": "Kem",
+  "item.fastfooddelight.chocolate_ice_cream": "Kem sô-cô-la",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Kem quả mọng ngọt",
+  "item.fastfooddelight.fruit_ice_cream": "Kem trái cây",
+  "item.fastfooddelight.apple_sauce": "Sốt táo",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Bồi bàn đồ ăn nhanh"
+}

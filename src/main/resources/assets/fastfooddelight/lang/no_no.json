@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Kasseapparat",
+
+  "item.fastfooddelight.fries_bowl": "Pommes frites-bolle",
+  "item.fastfooddelight.cheese": "Ost",
+
+  "item.fastfooddelight.french_fries": "Pommes frites",
+  "item.fastfooddelight.carrot_fries": "Gulrotfries",
+  "item.fastfooddelight.fried_onions": "Stekt løk",
+  "item.fastfooddelight.beet_fries": "Rødbetefries",
+
+  "item.fastfooddelight.cod_sandwich": "Torskesmørbrød",
+  "item.fastfooddelight.salmon_sandwich": "Laksesmørbrød",
+  "item.fastfooddelight.pork_sandwich": "Svinekjøttsmørbrød",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Kylling- og ostesmørbrød",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Kaninsmørbrød",
+  "item.fastfooddelight.cheese_wrap": "Ostewrap",
+  "item.fastfooddelight.chicken_wrap": "Kyllingwrap",
+  "item.fastfooddelight.chicken_nuggets": "Kyllingnuggets",
+
+
+  "item.fastfooddelight.cola_soda": "Colabrus",
+  "item.fastfooddelight.orange_soda": "Appelsinbrus",
+  "item.fastfooddelight.lemon_soda": "Sitronbrus",
+  "item.fastfooddelight.creaming_soda": "Vaniljebrus",
+  "item.fastfooddelight.iced_tea": "Iste",
+
+  "item.fastfooddelight.ice_cream": "Iskrem",
+  "item.fastfooddelight.chocolate_ice_cream": "Sjokoladeiskrem",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Søtbæriskrem",
+  "item.fastfooddelight.fruit_ice_cream": "Fruktiskrem",
+  "item.fastfooddelight.apple_sauce": "Eplemos",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Gatekjøkkenservitør"
+}

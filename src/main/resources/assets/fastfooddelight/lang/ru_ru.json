@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Кассовый аппарат",
+
+  "item.fastfooddelight.fries_bowl": "Миска для картошки фри",
+  "item.fastfooddelight.cheese": "Сыр",
+
+  "item.fastfooddelight.french_fries": "Картофель фри",
+  "item.fastfooddelight.carrot_fries": "Морковь фри",
+  "item.fastfooddelight.fried_onions": "Жареный лук",
+  "item.fastfooddelight.beet_fries": "Свёкла фри",
+
+  "item.fastfooddelight.cod_sandwich": "Сэндвич с треской",
+  "item.fastfooddelight.salmon_sandwich": "Сэндвич с лососем",
+  "item.fastfooddelight.pork_sandwich": "Сэндвич со свининой",
+  "item.fastfooddelight.cheeseburger": "Чизбургер",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Сэндвич с курицей и сыром",
+  "item.fastfooddelight.croque_monsieur": "Крок-месье",
+  "item.fastfooddelight.rabbit_sandwich": "Сэндвич с крольчатиной",
+  "item.fastfooddelight.cheese_wrap": "Рулет с сыром",
+  "item.fastfooddelight.chicken_wrap": "Рулет с курицей",
+  "item.fastfooddelight.chicken_nuggets": "Куриные наггетсы",
+
+
+  "item.fastfooddelight.cola_soda": "Кола",
+  "item.fastfooddelight.orange_soda": "Апельсиновая газировка",
+  "item.fastfooddelight.lemon_soda": "Лимонная газировка",
+  "item.fastfooddelight.creaming_soda": "Ванильная газировка",
+  "item.fastfooddelight.iced_tea": "Холодный чай",
+
+  "item.fastfooddelight.ice_cream": "Мороженое",
+  "item.fastfooddelight.chocolate_ice_cream": "Шоколадное мороженое",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Мороженое со сладкими ягодами",
+  "item.fastfooddelight.fruit_ice_cream": "Фруктовое мороженое",
+  "item.fastfooddelight.apple_sauce": "Яблочное пюре",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Официант фастфуда"
+}

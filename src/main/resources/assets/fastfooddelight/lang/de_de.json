@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Registrierkasse",
+
+  "item.fastfooddelight.fries_bowl": "Pommesschale",
+  "item.fastfooddelight.cheese": "Käse",
+
+  "item.fastfooddelight.french_fries": "Pommes frites",
+  "item.fastfooddelight.carrot_fries": "Karottenpommes",
+  "item.fastfooddelight.fried_onions": "Frittierte Zwiebeln",
+  "item.fastfooddelight.beet_fries": "Rote-Bete-Pommes",
+
+  "item.fastfooddelight.cod_sandwich": "Kabeljausandwich",
+  "item.fastfooddelight.salmon_sandwich": "Lachssandwich",
+  "item.fastfooddelight.pork_sandwich": "Schweinefleischsandwich",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Hühnchen-Käse-Sandwich",
+  "item.fastfooddelight.croque_monsieur": "Croque Monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Kaninchensandwich",
+  "item.fastfooddelight.cheese_wrap": "Käse-Wrap",
+  "item.fastfooddelight.chicken_wrap": "Hühnchen-Wrap",
+  "item.fastfooddelight.chicken_nuggets": "Chicken Nuggets",
+
+
+  "item.fastfooddelight.cola_soda": "Cola",
+  "item.fastfooddelight.orange_soda": "Orangenlimonade",
+  "item.fastfooddelight.lemon_soda": "Zitronenlimonade",
+  "item.fastfooddelight.creaming_soda": "Vanillelimonade",
+  "item.fastfooddelight.iced_tea": "Eistee",
+
+  "item.fastfooddelight.ice_cream": "Eiscreme",
+  "item.fastfooddelight.chocolate_ice_cream": "Schokoladeneis",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Süßbeereneis",
+  "item.fastfooddelight.fruit_ice_cream": "Fruchteis",
+  "item.fastfooddelight.apple_sauce": "Apfelmus",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Fast-Food-Kellner"
+}

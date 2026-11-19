@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Касовий апарат",
+
+  "item.fastfooddelight.fries_bowl": "Миска для картоплі фрі",
+  "item.fastfooddelight.cheese": "Сир",
+
+  "item.fastfooddelight.french_fries": "Картопля фрі",
+  "item.fastfooddelight.carrot_fries": "Морква фрі",
+  "item.fastfooddelight.fried_onions": "Смажена цибуля",
+  "item.fastfooddelight.beet_fries": "Буряк фрі",
+
+  "item.fastfooddelight.cod_sandwich": "Сендвіч з тріскою",
+  "item.fastfooddelight.salmon_sandwich": "Сендвіч з лососем",
+  "item.fastfooddelight.pork_sandwich": "Сендвіч зі свининою",
+  "item.fastfooddelight.cheeseburger": "Чизбургер",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Сендвіч з куркою та сиром",
+  "item.fastfooddelight.croque_monsieur": "Крок-месьє",
+  "item.fastfooddelight.rabbit_sandwich": "Сендвіч з кролятиною",
+  "item.fastfooddelight.cheese_wrap": "Врап із сиром",
+  "item.fastfooddelight.chicken_wrap": "Врап із куркою",
+  "item.fastfooddelight.chicken_nuggets": "Курячі нагетси",
+
+
+  "item.fastfooddelight.cola_soda": "Кола",
+  "item.fastfooddelight.orange_soda": "Апельсинова газованка",
+  "item.fastfooddelight.lemon_soda": "Лимонна газованка",
+  "item.fastfooddelight.creaming_soda": "Ванільна газованка",
+  "item.fastfooddelight.iced_tea": "Холодний чай",
+
+  "item.fastfooddelight.ice_cream": "Морозиво",
+  "item.fastfooddelight.chocolate_ice_cream": "Шоколадне морозиво",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Морозиво з солодкими ягодами",
+  "item.fastfooddelight.fruit_ice_cream": "Фруктове морозиво",
+  "item.fastfooddelight.apple_sauce": "Яблучне пюре",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Офіціант фастфуду"
+}

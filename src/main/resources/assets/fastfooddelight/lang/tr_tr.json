@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Yazar Kasa",
+
+  "item.fastfooddelight.fries_bowl": "Patates Kızartması Kâsesi",
+  "item.fastfooddelight.cheese": "Peynir",
+
+  "item.fastfooddelight.french_fries": "Patates Kızartması",
+  "item.fastfooddelight.carrot_fries": "Havuç Kızartması",
+  "item.fastfooddelight.fried_onions": "Soğan Kızartması",
+  "item.fastfooddelight.beet_fries": "Pancar Kızartması",
+
+  "item.fastfooddelight.cod_sandwich": "Morinalı Sandviç",
+  "item.fastfooddelight.salmon_sandwich": "Somonlu Sandviç",
+  "item.fastfooddelight.pork_sandwich": "Domuz Etli Sandviç",
+  "item.fastfooddelight.cheeseburger": "Çizburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Tavuklu Peynirli Sandviç",
+  "item.fastfooddelight.croque_monsieur": "Croque Monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Tavşan Etli Sandviç",
+  "item.fastfooddelight.cheese_wrap": "Peynirli Dürüm",
+  "item.fastfooddelight.chicken_wrap": "Tavuklu Dürüm",
+  "item.fastfooddelight.chicken_nuggets": "Tavuk Nugget",
+
+
+  "item.fastfooddelight.cola_soda": "Kola",
+  "item.fastfooddelight.orange_soda": "Portakallı Gazoz",
+  "item.fastfooddelight.lemon_soda": "Limonlu Gazoz",
+  "item.fastfooddelight.creaming_soda": "Vanilyalı Gazoz",
+  "item.fastfooddelight.iced_tea": "Soğuk Çay",
+
+  "item.fastfooddelight.ice_cream": "Dondurma",
+  "item.fastfooddelight.chocolate_ice_cream": "Çikolatalı Dondurma",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Tatlı Orman Meyveli Dondurma",
+  "item.fastfooddelight.fruit_ice_cream": "Meyveli Dondurma",
+  "item.fastfooddelight.apple_sauce": "Elma Püresi",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Fast Food Garsonu"
+}

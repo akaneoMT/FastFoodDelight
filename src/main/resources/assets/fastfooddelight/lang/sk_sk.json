@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Registračná pokladňa",
+
+  "item.fastfooddelight.fries_bowl": "Miska na hranolky",
+  "item.fastfooddelight.cheese": "Syr",
+
+  "item.fastfooddelight.french_fries": "Hranolky",
+  "item.fastfooddelight.carrot_fries": "Mrkvové hranolky",
+  "item.fastfooddelight.fried_onions": "Vyprážaná cibuľa",
+  "item.fastfooddelight.beet_fries": "Repové hranolky",
+
+  "item.fastfooddelight.cod_sandwich": "Sendvič s treskou",
+  "item.fastfooddelight.salmon_sandwich": "Sendvič s lososom",
+  "item.fastfooddelight.pork_sandwich": "Bravčový sendvič",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Kurací sendvič so syrom",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Králičí sendvič",
+  "item.fastfooddelight.cheese_wrap": "Syrový wrap",
+  "item.fastfooddelight.chicken_wrap": "Kurací wrap",
+  "item.fastfooddelight.chicken_nuggets": "Kuracie nugetky",
+
+
+  "item.fastfooddelight.cola_soda": "Kolová limonáda",
+  "item.fastfooddelight.orange_soda": "Pomarančová limonáda",
+  "item.fastfooddelight.lemon_soda": "Citrónová limonáda",
+  "item.fastfooddelight.creaming_soda": "Vanilková limonáda",
+  "item.fastfooddelight.iced_tea": "Ľadový čaj",
+
+  "item.fastfooddelight.ice_cream": "Zmrzlina",
+  "item.fastfooddelight.chocolate_ice_cream": "Čokoládová zmrzlina",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Zmrzlina zo sladkých bobúľ",
+  "item.fastfooddelight.fruit_ice_cream": "Ovocná zmrzlina",
+  "item.fastfooddelight.apple_sauce": "Jablkové pyré",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Čašník rýchleho občerstvenia"
+}

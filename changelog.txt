@@ -1,0 +1,33 @@
+## FastFood Delight 2.0.0 — Minecraft 26.1 (Fabric)
+
+### Port
+- Ported from Forge 1.19 to **Fabric 26.1**
+- Now requires **Farmer's Delight Refabricated** and **Fabric API**
+
+### New
+- **Beet Fries**: cooked in the Cooking Pot with a beetroot and a Fries Bowl, also sold by the Fast Food Waiter
+- **Checkout Machine recipe**: it can now be crafted (iron ingots, glass, redstone and paper)
+- **Recipe book**: recipes now unlock in the recipe book and the Cooking Pot book as you collect their ingredients
+- **Config file** (`config/fastfooddelight-common.json`): enable or disable Fast Food shops in villages, and set how often they appear
+- Fast Food Waiters keep their uniform when turned into zombie villagers
+- Items are added to Farmer's Delight and common tags (snacks, meals, sweets, drinks, foods) for better compatibility with other mods
+- The Fries Bowl can be shift-clicked into the Cooking Pot's container slot
+
+### Changes
+- **Cheese** is now made in the Cooking Pot: 4 cheese per milk bucket, 1 hunger point each
+- **Apple Sauce** now needs a bowl and 2 sugar
+- **Checkout Machine** behaves like the Cooking Pot: lantern sounds, breaks quickly, drops even without a tool
+- Fries, ice creams and apple sauce now stack to 16, like Farmer's Delight meals
+- Recipes use common tags: any bread, leafy green, onion, tomato… from other mods works
+- Fast Food shops are a bit rarer in villages (weight 15 instead of 25, configurable)
+- Village shops now spawn villagers the vanilla way: an unemployed villager shows up and becomes a Fast Food Waiter
+- Waiter trades are now data-driven and can be changed with a datapack
+
+### Fixes
+- The Checkout Machine can now be mined with a pickaxe and drops itself
+- Crafting flavored ice creams no longer duplicates bowls
+- Apple Sauce no longer gives a free bowl
+- Removed the stray leatherworker villager from every Fast Food shop
+- French translation fixes ("Oignons frits", "Croque-monsieur")
+
+Thanks to Rinko1231 for the unofficial 1.20/1.21 update, which inspired some of these changes.

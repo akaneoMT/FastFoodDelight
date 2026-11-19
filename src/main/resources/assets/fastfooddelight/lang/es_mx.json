@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Caja registradora",
+
+  "item.fastfooddelight.fries_bowl": "Bol para papas",
+  "item.fastfooddelight.cheese": "Queso",
+
+  "item.fastfooddelight.french_fries": "Papas fritas",
+  "item.fastfooddelight.carrot_fries": "Zanahorias fritas",
+  "item.fastfooddelight.fried_onions": "Cebolla frita",
+  "item.fastfooddelight.beet_fries": "Betabeles fritos",
+
+  "item.fastfooddelight.cod_sandwich": "Sándwich de bacalao",
+  "item.fastfooddelight.salmon_sandwich": "Sándwich de salmón",
+  "item.fastfooddelight.pork_sandwich": "Sándwich de cerdo",
+  "item.fastfooddelight.cheeseburger": "Hamburguesa con queso",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Sándwich de pollo y queso",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Sándwich de conejo",
+  "item.fastfooddelight.cheese_wrap": "Wrap de queso",
+  "item.fastfooddelight.chicken_wrap": "Wrap de pollo",
+  "item.fastfooddelight.chicken_nuggets": "Nuggets de pollo",
+
+
+  "item.fastfooddelight.cola_soda": "Refresco de cola",
+  "item.fastfooddelight.orange_soda": "Refresco de naranja",
+  "item.fastfooddelight.lemon_soda": "Refresco de limón",
+  "item.fastfooddelight.creaming_soda": "Refresco de vainilla",
+  "item.fastfooddelight.iced_tea": "Té helado",
+
+  "item.fastfooddelight.ice_cream": "Helado",
+  "item.fastfooddelight.chocolate_ice_cream": "Helado de chocolate",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Helado de bayas dulces",
+  "item.fastfooddelight.fruit_ice_cream": "Helado de frutas",
+  "item.fastfooddelight.apple_sauce": "Puré de manzana",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Mesero de comida rápida"
+}

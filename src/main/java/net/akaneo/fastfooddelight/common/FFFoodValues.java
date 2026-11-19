@@ -11,7 +11,7 @@ public class FFFoodValues
 {
 	// Basic Foods
 	public static final FoodProperties CHEESE = (new FoodProperties.Builder())
-			.nutrition(4).saturationModifier(0.4f).build();
+			.nutrition(1).saturationModifier(0.4f).build();
 	public static final FoodProperties FRIES = (new FoodProperties.Builder())
 			.nutrition(5).saturationModifier(0.6f).build();
 

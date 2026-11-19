@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Kassakone",
+
+  "item.fastfooddelight.fries_bowl": "Ranskalaiskulho",
+  "item.fastfooddelight.cheese": "Juusto",
+
+  "item.fastfooddelight.french_fries": "Ranskalaiset perunat",
+  "item.fastfooddelight.carrot_fries": "Porkkanaranskalaiset",
+  "item.fastfooddelight.fried_onions": "Paistettu sipuli",
+  "item.fastfooddelight.beet_fries": "Punajuuriranskalaiset",
+
+  "item.fastfooddelight.cod_sandwich": "Turskasämpylä",
+  "item.fastfooddelight.salmon_sandwich": "Lohisämpylä",
+  "item.fastfooddelight.pork_sandwich": "Porsassämpylä",
+  "item.fastfooddelight.cheeseburger": "Juustohampurilainen",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Kana-juustosämpylä",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Jänissämpylä",
+  "item.fastfooddelight.cheese_wrap": "Juustorulla",
+  "item.fastfooddelight.chicken_wrap": "Kanarulla",
+  "item.fastfooddelight.chicken_nuggets": "Kananugetit",
+
+
+  "item.fastfooddelight.cola_soda": "Kolalimonadi",
+  "item.fastfooddelight.orange_soda": "Appelsiinilimonadi",
+  "item.fastfooddelight.lemon_soda": "Sitruunalimonadi",
+  "item.fastfooddelight.creaming_soda": "Vaniljalimonadi",
+  "item.fastfooddelight.iced_tea": "Jäätee",
+
+  "item.fastfooddelight.ice_cream": "Jäätelö",
+  "item.fastfooddelight.chocolate_ice_cream": "Suklaajäätelö",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Makeamarjajäätelö",
+  "item.fastfooddelight.fruit_ice_cream": "Hedelmäjäätelö",
+  "item.fastfooddelight.apple_sauce": "Omenasose",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Pikaruokatarjoilija"
+}

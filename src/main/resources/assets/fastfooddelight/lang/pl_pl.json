@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Kasa fiskalna",
+
+  "item.fastfooddelight.fries_bowl": "Miska na frytki",
+  "item.fastfooddelight.cheese": "Ser",
+
+  "item.fastfooddelight.french_fries": "Frytki",
+  "item.fastfooddelight.carrot_fries": "Frytki z marchewki",
+  "item.fastfooddelight.fried_onions": "Smażona cebula",
+  "item.fastfooddelight.beet_fries": "Frytki z buraków",
+
+  "item.fastfooddelight.cod_sandwich": "Kanapka z dorszem",
+  "item.fastfooddelight.salmon_sandwich": "Kanapka z łososiem",
+  "item.fastfooddelight.pork_sandwich": "Kanapka z wieprzowiną",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Kanapka z kurczakiem i serem",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Kanapka z królikiem",
+  "item.fastfooddelight.cheese_wrap": "Tortilla z serem",
+  "item.fastfooddelight.chicken_wrap": "Tortilla z kurczakiem",
+  "item.fastfooddelight.chicken_nuggets": "Nuggetsy z kurczaka",
+
+
+  "item.fastfooddelight.cola_soda": "Napój o smaku coli",
+  "item.fastfooddelight.orange_soda": "Oranżada",
+  "item.fastfooddelight.lemon_soda": "Lemoniada",
+  "item.fastfooddelight.creaming_soda": "Napój waniliowy",
+  "item.fastfooddelight.iced_tea": "Mrożona herbata",
+
+  "item.fastfooddelight.ice_cream": "Lody",
+  "item.fastfooddelight.chocolate_ice_cream": "Lody czekoladowe",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Lody ze słodkich jagód",
+  "item.fastfooddelight.fruit_ice_cream": "Lody owocowe",
+  "item.fastfooddelight.apple_sauce": "Mus jabłkowy",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Kelner z fast foodu"
+}

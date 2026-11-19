@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "收銀機",
+
+  "item.fastfooddelight.fries_bowl": "薯條碗",
+  "item.fastfooddelight.cheese": "芝士",
+
+  "item.fastfooddelight.french_fries": "炸薯條",
+  "item.fastfooddelight.carrot_fries": "炸紅蘿蔔條",
+  "item.fastfooddelight.fried_onions": "炸洋葱",
+  "item.fastfooddelight.beet_fries": "炸紅菜頭條",
+
+  "item.fastfooddelight.cod_sandwich": "鱈魚三文治",
+  "item.fastfooddelight.salmon_sandwich": "三文魚三文治",
+  "item.fastfooddelight.pork_sandwich": "豬肉三文治",
+  "item.fastfooddelight.cheeseburger": "芝士漢堡",
+  "item.fastfooddelight.chicken_cheese_sandwich": "雞肉芝士三文治",
+  "item.fastfooddelight.croque_monsieur": "法式火腿芝士三文治",
+  "item.fastfooddelight.rabbit_sandwich": "兔肉三文治",
+  "item.fastfooddelight.cheese_wrap": "芝士捲",
+  "item.fastfooddelight.chicken_wrap": "雞肉捲",
+  "item.fastfooddelight.chicken_nuggets": "雞塊",
+
+
+  "item.fastfooddelight.cola_soda": "可樂汽水",
+  "item.fastfooddelight.orange_soda": "橙味汽水",
+  "item.fastfooddelight.lemon_soda": "檸檬汽水",
+  "item.fastfooddelight.creaming_soda": "忌廉梳打",
+  "item.fastfooddelight.iced_tea": "凍茶",
+
+  "item.fastfooddelight.ice_cream": "雪糕",
+  "item.fastfooddelight.chocolate_ice_cream": "朱古力雪糕",
+  "item.fastfooddelight.sweet_berry_ice_cream": "甜莓雪糕",
+  "item.fastfooddelight.fruit_ice_cream": "水果雪糕",
+  "item.fastfooddelight.apple_sauce": "蘋果醬",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "快餐店員"
+}

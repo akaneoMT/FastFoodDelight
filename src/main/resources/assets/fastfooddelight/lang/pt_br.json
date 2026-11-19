@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Caixa registradora",
+
+  "item.fastfooddelight.fries_bowl": "Tigela para fritas",
+  "item.fastfooddelight.cheese": "Queijo",
+
+  "item.fastfooddelight.french_fries": "Batata frita",
+  "item.fastfooddelight.carrot_fries": "Cenoura frita",
+  "item.fastfooddelight.fried_onions": "Cebola frita",
+  "item.fastfooddelight.beet_fries": "Beterraba frita",
+
+  "item.fastfooddelight.cod_sandwich": "Sanduíche de bacalhau",
+  "item.fastfooddelight.salmon_sandwich": "Sanduíche de salmão",
+  "item.fastfooddelight.pork_sandwich": "Sanduíche de porco",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Sanduíche de frango com queijo",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Sanduíche de coelho",
+  "item.fastfooddelight.cheese_wrap": "Enrolado de queijo",
+  "item.fastfooddelight.chicken_wrap": "Enrolado de frango",
+  "item.fastfooddelight.chicken_nuggets": "Nuggets de frango",
+
+
+  "item.fastfooddelight.cola_soda": "Refrigerante de cola",
+  "item.fastfooddelight.orange_soda": "Refrigerante de laranja",
+  "item.fastfooddelight.lemon_soda": "Refrigerante de limão",
+  "item.fastfooddelight.creaming_soda": "Refrigerante de baunilha",
+  "item.fastfooddelight.iced_tea": "Chá gelado",
+
+  "item.fastfooddelight.ice_cream": "Sorvete",
+  "item.fastfooddelight.chocolate_ice_cream": "Sorvete de chocolate",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Sorvete de bagas doces",
+  "item.fastfooddelight.fruit_ice_cream": "Sorvete de frutas",
+  "item.fastfooddelight.apple_sauce": "Purê de maçã",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Garçom de fast food"
+}

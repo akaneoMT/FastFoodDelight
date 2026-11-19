@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Kassa",
+
+  "item.fastfooddelight.fries_bowl": "Patatbakje",
+  "item.fastfooddelight.cheese": "Kaas",
+
+  "item.fastfooddelight.french_fries": "Patat",
+  "item.fastfooddelight.carrot_fries": "Wortelfrietjes",
+  "item.fastfooddelight.fried_onions": "Gebakken uien",
+  "item.fastfooddelight.beet_fries": "Bietenfrietjes",
+
+  "item.fastfooddelight.cod_sandwich": "Broodje kabeljauw",
+  "item.fastfooddelight.salmon_sandwich": "Broodje zalm",
+  "item.fastfooddelight.pork_sandwich": "Broodje varkensvlees",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Broodje kip-kaas",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Broodje konijn",
+  "item.fastfooddelight.cheese_wrap": "Kaaswrap",
+  "item.fastfooddelight.chicken_wrap": "Kipwrap",
+  "item.fastfooddelight.chicken_nuggets": "Kipnuggets",
+
+
+  "item.fastfooddelight.cola_soda": "Cola",
+  "item.fastfooddelight.orange_soda": "Sinaasappelfrisdrank",
+  "item.fastfooddelight.lemon_soda": "Citroenfrisdrank",
+  "item.fastfooddelight.creaming_soda": "Vanillefrisdrank",
+  "item.fastfooddelight.iced_tea": "IJsthee",
+
+  "item.fastfooddelight.ice_cream": "IJs",
+  "item.fastfooddelight.chocolate_ice_cream": "Chocolade-ijs",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Zoetbessenijs",
+  "item.fastfooddelight.fruit_ice_cream": "Vruchtenijs",
+  "item.fastfooddelight.apple_sauce": "Appelmoes",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Fastfoodober"
+}

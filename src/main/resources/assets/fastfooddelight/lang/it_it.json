@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Registratore di cassa",
+
+  "item.fastfooddelight.fries_bowl": "Ciotola per patatine",
+  "item.fastfooddelight.cheese": "Formaggio",
+
+  "item.fastfooddelight.french_fries": "Patatine fritte",
+  "item.fastfooddelight.carrot_fries": "Carote fritte",
+  "item.fastfooddelight.fried_onions": "Cipolle fritte",
+  "item.fastfooddelight.beet_fries": "Barbabietole fritte",
+
+  "item.fastfooddelight.cod_sandwich": "Panino al merluzzo",
+  "item.fastfooddelight.salmon_sandwich": "Panino al salmone",
+  "item.fastfooddelight.pork_sandwich": "Panino al maiale",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Panino con pollo e formaggio",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Panino al coniglio",
+  "item.fastfooddelight.cheese_wrap": "Piadina al formaggio",
+  "item.fastfooddelight.chicken_wrap": "Piadina al pollo",
+  "item.fastfooddelight.chicken_nuggets": "Crocchette di pollo",
+
+
+  "item.fastfooddelight.cola_soda": "Bibita alla cola",
+  "item.fastfooddelight.orange_soda": "Aranciata",
+  "item.fastfooddelight.lemon_soda": "Limonata",
+  "item.fastfooddelight.creaming_soda": "Bibita alla vaniglia",
+  "item.fastfooddelight.iced_tea": "Tè freddo",
+
+  "item.fastfooddelight.ice_cream": "Gelato",
+  "item.fastfooddelight.chocolate_ice_cream": "Gelato al cioccolato",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Gelato alle bacche dolci",
+  "item.fastfooddelight.fruit_ice_cream": "Gelato alla frutta",
+  "item.fastfooddelight.apple_sauce": "Composta di mele",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Cameriere del fast food"
+}

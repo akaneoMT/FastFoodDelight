@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Monies Box",
+
+  "item.fastfooddelight.fries_bowl": "Fryz Boul",
+  "item.fastfooddelight.cheese": "Cheez",
+
+  "item.fastfooddelight.french_fries": "Frenchy Fryz",
+  "item.fastfooddelight.carrot_fries": "Carot Fryz",
+  "item.fastfooddelight.fried_onions": "Cry Ball Fryz",
+  "item.fastfooddelight.beet_fries": "Betrut Fryz",
+
+  "item.fastfooddelight.cod_sandwich": "Fishy Bread",
+  "item.fastfooddelight.salmon_sandwich": "Pink Fishy Bread",
+  "item.fastfooddelight.pork_sandwich": "Piggeh Bread",
+  "item.fastfooddelight.cheeseburger": "Cheezburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Cluck Cheez Bread",
+  "item.fastfooddelight.croque_monsieur": "Fancy Toastd Bread",
+  "item.fastfooddelight.rabbit_sandwich": "Jumpin Bread",
+  "item.fastfooddelight.cheese_wrap": "Cheez Wrap",
+  "item.fastfooddelight.chicken_wrap": "Cluck Wrap",
+  "item.fastfooddelight.chicken_nuggets": "Cluck Nuggitz",
+
+
+  "item.fastfooddelight.cola_soda": "Cola Fizz",
+  "item.fastfooddelight.orange_soda": "Orang Fizz",
+  "item.fastfooddelight.lemon_soda": "Lemun Fizz",
+  "item.fastfooddelight.creaming_soda": "Creemy Fizz",
+  "item.fastfooddelight.iced_tea": "Cold Leef Watr",
+
+  "item.fastfooddelight.ice_cream": "Cold Nomz",
+  "item.fastfooddelight.chocolate_ice_cream": "Choclit Cold Nomz",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Sweet Beries Cold Nomz",
+  "item.fastfooddelight.fruit_ice_cream": "Fruit Cold Nomz",
+  "item.fastfooddelight.apple_sauce": "Appel Goo",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Fast Nomz Servr"
+}

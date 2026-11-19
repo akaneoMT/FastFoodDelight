@@ -5,7 +5,7 @@
   "name": "${mod_name}",
   "description": "${mod_description}",
   "authors": ["${mod_authors}"],
-  "contributors": ["vectorwing"],
+  "contributors": ["vectorwing", "Rinko1231"],
   "contact": {
     "sources": "${mod_github}",
     "issues": "${mod_github}/issues"

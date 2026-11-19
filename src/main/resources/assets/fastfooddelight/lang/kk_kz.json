@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Кассалық аппарат",
+
+  "item.fastfooddelight.fries_bowl": "Фри картопқа арналған тостаған",
+  "item.fastfooddelight.cheese": "Ірімшік",
+
+  "item.fastfooddelight.french_fries": "Фри картобы",
+  "item.fastfooddelight.carrot_fries": "Фри сәбізі",
+  "item.fastfooddelight.fried_onions": "Қуырылған пияз",
+  "item.fastfooddelight.beet_fries": "Фри қызылшасы",
+
+  "item.fastfooddelight.cod_sandwich": "Сетінек сэндвичі",
+  "item.fastfooddelight.salmon_sandwich": "Албырт сэндвичі",
+  "item.fastfooddelight.pork_sandwich": "Шошқа етінен сэндвич",
+  "item.fastfooddelight.cheeseburger": "Чизбургер",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Тауық пен ірімшік сэндвичі",
+  "item.fastfooddelight.croque_monsieur": "Крок-месье",
+  "item.fastfooddelight.rabbit_sandwich": "Қоян етінен сэндвич",
+  "item.fastfooddelight.cheese_wrap": "Ірімшік орамасы",
+  "item.fastfooddelight.chicken_wrap": "Тауық орамасы",
+  "item.fastfooddelight.chicken_nuggets": "Тауық наггетстері",
+
+
+  "item.fastfooddelight.cola_soda": "Кола",
+  "item.fastfooddelight.orange_soda": "Апельсин газдалған сусыны",
+  "item.fastfooddelight.lemon_soda": "Лимон газдалған сусыны",
+  "item.fastfooddelight.creaming_soda": "Ваниль газдалған сусыны",
+  "item.fastfooddelight.iced_tea": "Салқын шай",
+
+  "item.fastfooddelight.ice_cream": "Балмұздақ",
+  "item.fastfooddelight.chocolate_ice_cream": "Шоколадты балмұздақ",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Тәтті жидекті балмұздақ",
+  "item.fastfooddelight.fruit_ice_cream": "Жемісті балмұздақ",
+  "item.fastfooddelight.apple_sauce": "Алма езбесі",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Фастфуд даяшысы"
+}

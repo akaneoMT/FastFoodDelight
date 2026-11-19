@@ -19,6 +19,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 import static vectorwing.farmersdelight.common.registry.ModItems.basicItem;
+import static vectorwing.farmersdelight.common.registry.ModItems.bowlFoodItem;
 import static vectorwing.farmersdelight.common.registry.ModItems.drinkItem;
 import static vectorwing.farmersdelight.common.registry.ModItems.foodItem;
 
@@ -58,13 +59,13 @@ public class FFItems
 
 	// Fries
 	public static final Supplier<Item> FRENCH_FRIES = registerWithTab("french_fries",
-			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()).stacksTo(16));
 	public static final Supplier<Item> CARROT_FRIES = registerWithTab("carrot_fries",
-			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()).stacksTo(16));
 	public static final Supplier<Item> FRIED_ONIONS = registerWithTab("fried_onions",
-			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()).stacksTo(16));
 	public static final Supplier<Item> BEET_FRIES = registerWithTab("beet_fries",
-			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()));
+			ConsumableItem::new, foodItem(FFFoodValues.FRIES).craftRemainder(FRIES_BOWL.get()).stacksTo(16));
 
 	// Sandwiches & wraps
 	public static final Supplier<Item> COD_SANDWICH = registerWithTab("cod_sandwich",
@@ -102,15 +103,15 @@ public class FFItems
 
 	// Desserts
 	public static final Supplier<Item> ICE_CREAM = registerWithTab("ice_cream",
-			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_BASIC).craftRemainder(Items.BOWL));
+			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_BASIC).usingConvertsTo(Items.BOWL).stacksTo(16));
 	public static final Supplier<Item> CHOCOLATE_ICE_CREAM = registerWithTab("chocolate_ice_cream",
-			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
+			ConsumableItem::new, bowlFoodItem(FFFoodValues.ICE_CREAM_ADV));
 	public static final Supplier<Item> SWEET_BERRY_ICE_CREAM = registerWithTab("sweet_berry_ice_cream",
-			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
+			ConsumableItem::new, bowlFoodItem(FFFoodValues.ICE_CREAM_ADV));
 	public static final Supplier<Item> FRUIT_ICE_CREAM = registerWithTab("fruit_ice_cream",
-			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_ADV).craftRemainder(Items.BOWL));
+			ConsumableItem::new, bowlFoodItem(FFFoodValues.ICE_CREAM_ADV));
 	public static final Supplier<Item> APPLE_SAUCE = registerWithTab("apple_sauce",
-			ConsumableItem::new, foodItem(FFFoodValues.ICE_CREAM_BASIC).craftRemainder(Items.BOWL));
+			ConsumableItem::new, bowlFoodItem(FFFoodValues.ICE_CREAM_BASIC));
 
 	public static void touch() {
 	}

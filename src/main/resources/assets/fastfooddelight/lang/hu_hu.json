@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Pénztárgép",
+
+  "item.fastfooddelight.fries_bowl": "Sültkrumplis tál",
+  "item.fastfooddelight.cheese": "Sajt",
+
+  "item.fastfooddelight.french_fries": "Sült krumpli",
+  "item.fastfooddelight.carrot_fries": "Sült sárgarépa",
+  "item.fastfooddelight.fried_onions": "Sült hagyma",
+  "item.fastfooddelight.beet_fries": "Sült cékla",
+
+  "item.fastfooddelight.cod_sandwich": "Tőkehalas szendvics",
+  "item.fastfooddelight.salmon_sandwich": "Lazacos szendvics",
+  "item.fastfooddelight.pork_sandwich": "Sertéshúsos szendvics",
+  "item.fastfooddelight.cheeseburger": "Sajtburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Csirkés-sajtos szendvics",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Nyúlhúsos szendvics",
+  "item.fastfooddelight.cheese_wrap": "Sajtos wrap",
+  "item.fastfooddelight.chicken_wrap": "Csirkés wrap",
+  "item.fastfooddelight.chicken_nuggets": "Csirkefalatok",
+
+
+  "item.fastfooddelight.cola_soda": "Kóla",
+  "item.fastfooddelight.orange_soda": "Narancsos üdítő",
+  "item.fastfooddelight.lemon_soda": "Citromos üdítő",
+  "item.fastfooddelight.creaming_soda": "Vaníliás üdítő",
+  "item.fastfooddelight.iced_tea": "Jeges tea",
+
+  "item.fastfooddelight.ice_cream": "Fagylalt",
+  "item.fastfooddelight.chocolate_ice_cream": "Csokoládéfagylalt",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Édesbogyós fagylalt",
+  "item.fastfooddelight.fruit_ice_cream": "Gyümölcsfagylalt",
+  "item.fastfooddelight.apple_sauce": "Almapüré",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Gyorséttermi pincér"
+}

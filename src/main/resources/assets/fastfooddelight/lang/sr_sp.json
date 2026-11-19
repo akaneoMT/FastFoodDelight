@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Регистар каса",
+
+  "item.fastfooddelight.fries_bowl": "Чинија за помфрит",
+  "item.fastfooddelight.cheese": "Сир",
+
+  "item.fastfooddelight.french_fries": "Помфрит",
+  "item.fastfooddelight.carrot_fries": "Помфрит од шаргарепе",
+  "item.fastfooddelight.fried_onions": "Пржени лук",
+  "item.fastfooddelight.beet_fries": "Помфрит од цвекле",
+
+  "item.fastfooddelight.cod_sandwich": "Сендвич са бакаларом",
+  "item.fastfooddelight.salmon_sandwich": "Сендвич са лососом",
+  "item.fastfooddelight.pork_sandwich": "Сендвич са свињетином",
+  "item.fastfooddelight.cheeseburger": "Чизбургер",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Сендвич са пилетином и сиром",
+  "item.fastfooddelight.croque_monsieur": "Крок мисје",
+  "item.fastfooddelight.rabbit_sandwich": "Сендвич са зечетином",
+  "item.fastfooddelight.cheese_wrap": "Ролница са сиром",
+  "item.fastfooddelight.chicken_wrap": "Ролница са пилетином",
+  "item.fastfooddelight.chicken_nuggets": "Пилећи нагети",
+
+
+  "item.fastfooddelight.cola_soda": "Кола",
+  "item.fastfooddelight.orange_soda": "Оранџада",
+  "item.fastfooddelight.lemon_soda": "Лимунада",
+  "item.fastfooddelight.creaming_soda": "Газирани сок од ваниле",
+  "item.fastfooddelight.iced_tea": "Ледени чај",
+
+  "item.fastfooddelight.ice_cream": "Сладолед",
+  "item.fastfooddelight.chocolate_ice_cream": "Чоколадни сладолед",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Сладолед од слатких бобица",
+  "item.fastfooddelight.fruit_ice_cream": "Воћни сладолед",
+  "item.fastfooddelight.apple_sauce": "Пире од јабука",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Конобар брзе хране"
+}

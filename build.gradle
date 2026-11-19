@@ -1,6 +1,5 @@
 plugins {
     id 'net.fabricmc.fabric-loom' version '1.16-SNAPSHOT'
-    id 'maven-publish'
 }
 
 version = minecraft_major_version + "-" + mod_version

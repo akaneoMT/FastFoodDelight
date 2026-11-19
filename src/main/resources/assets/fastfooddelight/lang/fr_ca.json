@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Caisse enregistreuse",
+
+  "item.fastfooddelight.fries_bowl": "Bol à frites",
+  "item.fastfooddelight.cheese": "Fromage",
+
+  "item.fastfooddelight.french_fries": "Frites",
+  "item.fastfooddelight.carrot_fries": "Frites de carottes",
+  "item.fastfooddelight.fried_onions": "Oignons frits",
+  "item.fastfooddelight.beet_fries": "Frites de betteraves",
+
+  "item.fastfooddelight.cod_sandwich": "Sandwich à la morue",
+  "item.fastfooddelight.salmon_sandwich": "Sandwich au saumon",
+  "item.fastfooddelight.pork_sandwich": "Sandwich au porc",
+  "item.fastfooddelight.cheeseburger": "Cheeseburger",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Sandwich au poulet et fromage",
+  "item.fastfooddelight.croque_monsieur": "Croque-monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Sandwich au lapin",
+  "item.fastfooddelight.cheese_wrap": "Wrap au fromage",
+  "item.fastfooddelight.chicken_wrap": "Wrap au poulet",
+  "item.fastfooddelight.chicken_nuggets": "Croquettes de poulet",
+
+
+  "item.fastfooddelight.cola_soda": "Boisson gazeuse au cola",
+  "item.fastfooddelight.orange_soda": "Boisson gazeuse à l'orange",
+  "item.fastfooddelight.lemon_soda": "Boisson gazeuse au citron",
+  "item.fastfooddelight.creaming_soda": "Crème soda",
+  "item.fastfooddelight.iced_tea": "Thé glacé",
+
+  "item.fastfooddelight.ice_cream": "Crème glacée",
+  "item.fastfooddelight.chocolate_ice_cream": "Crème glacée au chocolat",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Crème glacée aux baies sucrées",
+  "item.fastfooddelight.fruit_ice_cream": "Crème glacée aux fruits",
+  "item.fastfooddelight.apple_sauce": "Compote de pommes",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Serveur de restauration rapide"
+}

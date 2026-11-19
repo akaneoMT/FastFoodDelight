@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Mesin Kasir",
+
+  "item.fastfooddelight.fries_bowl": "Mangkuk Kentang Goreng",
+  "item.fastfooddelight.cheese": "Keju",
+
+  "item.fastfooddelight.french_fries": "Kentang Goreng",
+  "item.fastfooddelight.carrot_fries": "Wortel Goreng",
+  "item.fastfooddelight.fried_onions": "Bawang Goreng",
+  "item.fastfooddelight.beet_fries": "Bit Goreng",
+
+  "item.fastfooddelight.cod_sandwich": "Roti Berlapis Kod",
+  "item.fastfooddelight.salmon_sandwich": "Roti Berlapis Salmon",
+  "item.fastfooddelight.pork_sandwich": "Roti Berlapis Babi",
+  "item.fastfooddelight.cheeseburger": "Burger Keju",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Roti Berlapis Ayam dan Keju",
+  "item.fastfooddelight.croque_monsieur": "Croque Monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Roti Berlapis Kelinci",
+  "item.fastfooddelight.cheese_wrap": "Keju Bungkus",
+  "item.fastfooddelight.chicken_wrap": "Daging Ayam Bungkus",
+  "item.fastfooddelight.chicken_nuggets": "Nugget Ayam",
+
+
+  "item.fastfooddelight.cola_soda": "Soda Kola",
+  "item.fastfooddelight.orange_soda": "Soda Jeruk",
+  "item.fastfooddelight.lemon_soda": "Soda Lemon",
+  "item.fastfooddelight.creaming_soda": "Soda Vanila",
+  "item.fastfooddelight.iced_tea": "Es Teh",
+
+  "item.fastfooddelight.ice_cream": "Es Krim",
+  "item.fastfooddelight.chocolate_ice_cream": "Es Krim Cokelat",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Es Krim Beri Manis",
+  "item.fastfooddelight.fruit_ice_cream": "Es Krim Buah",
+  "item.fastfooddelight.apple_sauce": "Saus Apel",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Pelayan Makanan Cepat Saji"
+}

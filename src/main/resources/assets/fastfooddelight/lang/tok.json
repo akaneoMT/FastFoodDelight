@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "ilo mani",
+
+  "item.fastfooddelight.fries_bowl": "poki pi kili ma seli",
+  "item.fastfooddelight.cheese": "moku pi telo mama",
+
+  "item.fastfooddelight.french_fries": "kili ma seli",
+  "item.fastfooddelight.carrot_fries": "kili palisa seli",
+  "item.fastfooddelight.fried_onions": "kili sike lipu seli",
+  "item.fastfooddelight.beet_fries": "kili ma loje seli",
+
+  "item.fastfooddelight.cod_sandwich": "moku kala walo lon pan",
+  "item.fastfooddelight.salmon_sandwich": "moku kala loje lon pan",
+  "item.fastfooddelight.pork_sandwich": "moku soweli moku lon pan",
+  "item.fastfooddelight.cheeseburger": "moku mani lon pan pi telo mama",
+  "item.fastfooddelight.chicken_cheese_sandwich": "moku waso pi telo mama lon pan",
+  "item.fastfooddelight.croque_monsieur": "pan seli pi telo mama",
+  "item.fastfooddelight.rabbit_sandwich": "moku soweli lili lon pan",
+  "item.fastfooddelight.cheese_wrap": "moku pi telo mama lon pan lipu",
+  "item.fastfooddelight.chicken_wrap": "moku waso lon pan lipu",
+  "item.fastfooddelight.chicken_nuggets": "moku waso lili seli",
+
+
+  "item.fastfooddelight.cola_soda": "telo suwi pimeja",
+  "item.fastfooddelight.orange_soda": "telo suwi jelo loje",
+  "item.fastfooddelight.lemon_soda": "telo suwi jelo",
+  "item.fastfooddelight.creaming_soda": "telo suwi walo",
+  "item.fastfooddelight.iced_tea": "telo kasi lete",
+
+  "item.fastfooddelight.ice_cream": "moku suwi lete",
+  "item.fastfooddelight.chocolate_ice_cream": "moku suwi lete pimeja",
+  "item.fastfooddelight.sweet_berry_ice_cream": "moku suwi lete pi kili suwi",
+  "item.fastfooddelight.fruit_ice_cream": "moku suwi lete pi kili mute",
+  "item.fastfooddelight.apple_sauce": "ko pi kili loje",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "jan pana moku"
+}

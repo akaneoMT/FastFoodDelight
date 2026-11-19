@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Kassaapparat",
+
+  "item.fastfooddelight.fries_bowl": "Pommesskål",
+  "item.fastfooddelight.cheese": "Ost",
+
+  "item.fastfooddelight.french_fries": "Pommes frites",
+  "item.fastfooddelight.carrot_fries": "Morotspommes",
+  "item.fastfooddelight.fried_onions": "Friterad lök",
+  "item.fastfooddelight.beet_fries": "Rödbetspommes",
+
+  "item.fastfooddelight.cod_sandwich": "Torskmacka",
+  "item.fastfooddelight.salmon_sandwich": "Laxmacka",
+  "item.fastfooddelight.pork_sandwich": "Fläskmacka",
+  "item.fastfooddelight.cheeseburger": "Cheeseburgare",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Kyckling- och ostmacka",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Kaninmacka",
+  "item.fastfooddelight.cheese_wrap": "Ostwrap",
+  "item.fastfooddelight.chicken_wrap": "Kycklingwrap",
+  "item.fastfooddelight.chicken_nuggets": "Kycklingnuggets",
+
+
+  "item.fastfooddelight.cola_soda": "Colaläsk",
+  "item.fastfooddelight.orange_soda": "Apelsinläsk",
+  "item.fastfooddelight.lemon_soda": "Citronläsk",
+  "item.fastfooddelight.creaming_soda": "Vaniljläsk",
+  "item.fastfooddelight.iced_tea": "Iste",
+
+  "item.fastfooddelight.ice_cream": "Glass",
+  "item.fastfooddelight.chocolate_ice_cream": "Chokladglass",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Sötbärsglass",
+  "item.fastfooddelight.fruit_ice_cream": "Fruktglass",
+  "item.fastfooddelight.apple_sauce": "Äppelmos",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Snabbmatsservitör"
+}

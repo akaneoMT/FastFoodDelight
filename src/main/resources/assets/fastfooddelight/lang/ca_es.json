@@ -1,0 +1,39 @@
+{
+  "block.fastfooddelight.checkout_machine": "Caixa enregistradora",
+
+  "item.fastfooddelight.fries_bowl": "Bol per a patates",
+  "item.fastfooddelight.cheese": "Formatge",
+
+  "item.fastfooddelight.french_fries": "Patates fregides",
+  "item.fastfooddelight.carrot_fries": "Pastanagues fregides",
+  "item.fastfooddelight.fried_onions": "Ceba fregida",
+  "item.fastfooddelight.beet_fries": "Remolatxes fregides",
+
+  "item.fastfooddelight.cod_sandwich": "Entrepà de bacallà",
+  "item.fastfooddelight.salmon_sandwich": "Entrepà de salmó",
+  "item.fastfooddelight.pork_sandwich": "Entrepà de porc",
+  "item.fastfooddelight.cheeseburger": "Hamburguesa amb formatge",
+  "item.fastfooddelight.chicken_cheese_sandwich": "Entrepà de pollastre i formatge",
+  "item.fastfooddelight.croque_monsieur": "Croque monsieur",
+  "item.fastfooddelight.rabbit_sandwich": "Entrepà de conill",
+  "item.fastfooddelight.cheese_wrap": "Wrap de formatge",
+  "item.fastfooddelight.chicken_wrap": "Wrap de pollastre",
+  "item.fastfooddelight.chicken_nuggets": "Nuggets de pollastre",
+
+
+  "item.fastfooddelight.cola_soda": "Refresc de cola",
+  "item.fastfooddelight.orange_soda": "Refresc de taronja",
+  "item.fastfooddelight.lemon_soda": "Refresc de llimona",
+  "item.fastfooddelight.creaming_soda": "Refresc de vainilla",
+  "item.fastfooddelight.iced_tea": "Te gelat",
+
+  "item.fastfooddelight.ice_cream": "Gelat",
+  "item.fastfooddelight.chocolate_ice_cream": "Gelat de xocolata",
+  "item.fastfooddelight.sweet_berry_ice_cream": "Gelat de baies dolces",
+  "item.fastfooddelight.fruit_ice_cream": "Gelat de fruites",
+  "item.fastfooddelight.apple_sauce": "Compota de poma",
+
+  "itemGroup.fastfooddelight": "FastFood Delight",
+
+  "entity.minecraft.villager.fastfooddelight.fast_food_waiter": "Cambrer de menjar ràpid"
+}
