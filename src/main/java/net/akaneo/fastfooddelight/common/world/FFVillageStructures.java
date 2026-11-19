@@ -23,7 +23,9 @@ import java.util.List;
  */
 public class FFVillageStructures
 {
-	private static final int FAST_FOOD_WEIGHT = 25;
+	// Vanilla house pools weigh 68 to 87 in total: 15 gives a fast food in roughly 8 villages out of 10,
+	// with fewer duplicates than the 25 used in 1.19
+	private static final int FAST_FOOD_WEIGHT = 15;
 
 	public static void init() {
 		// Template pools are data-driven: they only exist once the server has loaded its registries
