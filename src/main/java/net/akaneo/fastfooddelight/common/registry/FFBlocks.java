@@ -6,8 +6,9 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -24,8 +25,9 @@ public class FFBlocks
 	}
 
 	// Workstations
+	// Same properties as Farmer's Delight's cooking pot (metal colour, strength, lantern sound)
 	public static final Supplier<Block> CHECKOUT_MACHINE = regBlock("checkout_machine",
-			CheckoutMachineBlock::new, BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).noOcclusion());
+			CheckoutMachineBlock::new, Block.Properties.of().mapColor(MapColor.METAL).strength(0.5F, 6.0F).sound(SoundType.LANTERN).noOcclusion());
 
 	public static void touch() {
 	}
