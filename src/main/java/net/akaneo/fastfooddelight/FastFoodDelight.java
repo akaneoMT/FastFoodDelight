@@ -3,6 +3,7 @@ package net.akaneo.fastfooddelight;
 import net.akaneo.fastfooddelight.common.registry.FFBlocks;
 import net.akaneo.fastfooddelight.common.registry.FFCreativeTabs;
 import net.akaneo.fastfooddelight.common.registry.FFItems;
+import net.akaneo.fastfooddelight.common.registry.FFVillagers;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
@@ -21,5 +22,6 @@ public class FastFoodDelight implements ModInitializer {
         FFBlocks.touch();
         FFItems.touch();
         FFCreativeTabs.touch();
+        FFVillagers.touch();
     }
 }

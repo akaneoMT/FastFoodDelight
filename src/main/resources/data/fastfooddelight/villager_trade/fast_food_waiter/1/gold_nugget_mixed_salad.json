@@ -1,0 +1,11 @@
+{
+  "wants": {
+    "id": "minecraft:gold_nugget",
+    "count": 4
+  },
+  "gives": {
+    "id": "farmersdelight:mixed_salad"
+  },
+  "max_uses": 10,
+  "xp": 5
+}
